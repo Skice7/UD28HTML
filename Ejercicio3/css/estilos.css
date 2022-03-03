@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+.box1{
+    grid-column: 1 / 6;
+}
+
+.box{
+    padding: 5px;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 2fr 2fr 5fr 2fr 5fr 2fr 5fr 2fr 5fr;
+    
+    grid-gap: 10px;
+}
+
+
+.header a{
+    float:left;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top:3vh;
+    text-decoration: none;
+    padding-left:3vh;
+}
+.header2 {
+    float:right;
+    font-size: 28px;
+    margin-top:3vh;
+    margin-right: 4vw;
+    
+}
+i {
+    margin-right: 1vw;
+}
+.headerimg{
+    float: left;
+    width: 16vh;
+}
+.img2{
+    width: 30vh;
+    height: 45vh;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome; /* Especificamos que fuente utilizar*/
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ 
+.fa-address-book:before {
+    content: "\f2b9"; /* Este valor está asociado al icono de teléfono*/
+}
